@@ -1,7 +1,7 @@
 require("dotenv").config();
-const port = process.env.PORT || 2000;
+const PORT = 7900;
 const app = require("./app");
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log("connected to the server");
 });
